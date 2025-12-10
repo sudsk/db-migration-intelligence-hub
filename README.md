@@ -8,7 +8,7 @@ The Database Migration Intelligence Hub helps database migration teams quickly f
 
 ## 🏗️ Architecture
 ```
-Confluence PDFs → GCS → BigQuery Vector Search → FastAPI → React App
+Confluence PDFs → GCS → BigQuery/CloudSQL Vector Search → FastAPI (Cloud Run) → React App (Cloud Run)
 ```
 
 **Key Technologies:**
